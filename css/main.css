@@ -75,7 +75,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+    resize: vertical;   
 }
 
 /* ==========================================================================
@@ -92,21 +92,99 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body, html{
+    background-color: #e7e7e5;
+}
+
+/*
+* pour les parties principales
+*/
+
+.container{
+    margin: 0 auto;
+    background-color: #bbded7;
+    width: 980px;
+    min-height: 800px;
+}
+
+.container p{
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.actus{
+    width: 654px;
+    min-height: 320px;
+}
+
+.outils{
+    float: left;
+    width: 326px;
+    margin-left: 655px;
+    margin-top: -510px;
+    background-color: #e7e7e5;
+}
 
 
 
+/*
+* pour les typos
+*/
+
+h1, h2, h3{
+    color: #e53313;
+    margin-left: 84px;
+}
+
+/*
+* pour le menu
+*/
+
+.menu{
+    width: 100%;
+    background-color: #e53313;
+}
+
+.menu a{
+    color: #fff;
+    float: left;
+    padding-left: 24px;
+    margin-left: 84px;
+}
+
+/*
+* pour préciser les parties
+*/
+
+.legal, .mail{
+    padding-left: 24px;
+    margin-left: 84px;
+}
+
+.legal{
+    color: #e53313;
+}
+
+.mail{
+    background-color: #e53313;
+    color: #bbded7;
+    float: left;
+
+}
 
 
 
+/*
+* pour enlever les floats
+*/
 
-
-
-
-
-
-
-
-
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 
 
 /* ==========================================================================
