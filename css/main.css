@@ -75,7 +75,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+    resize: vertical;   
 }
 
 /* ==========================================================================
@@ -92,9 +92,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body, html{
+    background-color: #;
+}
+/*
+* pour enlever les floats
+*/
 
-
-
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 
 
 
