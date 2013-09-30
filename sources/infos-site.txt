@@ -4,4 +4,5 @@ infos couleurs palette
 
 #e53313 vermillon
 
-#e7e7e5 gris
+#e7e7e5 gris clair
+
