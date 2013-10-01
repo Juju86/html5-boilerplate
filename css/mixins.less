@@ -1,0 +1,52 @@
+.bordered {
+  border-right: dotted 1px @coulv;
+  border-left: dotted 1px @coulv;
+}
+
+.border-radius (@radius: 10px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.outils {
+  color: @coulv;
+}
+
+.button {
+  .border-radius(6px);
+  .bordered;
+  background-color: @coulv;
+  color: @coulbc;
+  width: @bt;
+}
+
+.petitwrap {
+	width: 300px;
+	float: left;
+	margin-top: -340px;
+	margin-left: 660px;
+}
+
+.grandwrap{
+	width: 654px;
+}
+
+.menuprinc{
+	width: @dimmenu;
+	border: @bordermini;
+	color: @coulbc;
+	background-color: @coulv;
+	li{
+		list-style: none;
+		float: @floatl;
+		margin-left: @margleft;
+	a{
+		color: @coulbc;
+	a:hover {
+    color: @coulv;
+    background-color: @coulbc;
+	}
+	}
+	}
+}
