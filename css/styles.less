@@ -1,0 +1,87 @@
+html, body {
+	background-color: @coulg;
+	font-size: @font-size-base;
+}
+
+/*
+* pour le menu
+*/
+
+nav{
+	.menuprinc;
+}
+
+/*
+* pour les typos
+*/
+
+h1, h2, h3{
+	color: @coulv;
+}
+
+h1{
+	font-size: @ttimportant;
+}
+
+h2, h3{
+	font-size: @ttsec;
+}
+
+/*
+* pour les parties principales
+*/
+
+.container {
+	width: @dimcont;
+	background-color: @coulb;
+}
+
+header, .zoom, .bienvenue, .actus, .outils, footer{
+	min-height: @smallht;
+}
+
+.contact {
+	border: @bordermini;
+}
+
+.outils{
+    .petitwrap;
+}
+
+.actus{
+	.grandwrap;
+}
+
+footer{
+	width: @dimmlarge;
+	min-height: @miniht;
+}
+
+/*
+* pour les choses à préciser
+*/
+
+.legal{
+		margin-left: @margleft;
+		color: @coulv;
+}
+
+.mail {
+		.button;
+		float: @floatl;
+		margin-left: @margleft*3;
+		margin-top: -20px;
+		text-align: @txtalignc;
+}
+
+/*
+* pour enlever les floats
+*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

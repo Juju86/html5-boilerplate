@@ -1,0 +1,8 @@
+infos couleurs palette
+
+#bbded7 bleu pastel clair   
+
+#e53313 vermillon
+
+#e7e7e5 gris clair
+
